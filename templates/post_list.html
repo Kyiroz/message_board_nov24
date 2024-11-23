@@ -1,0 +1,9 @@
+<h1>Tasks List</h1>
+
+<ul>
+    <!-- Ciclo for para mostrar las tareas -->
+    {% for task in publication_list %}
+        <!-- Muestra cada tarea -->
+        <li>{{ task.title }}</li>
+    {% endfor %}
+</ul>
